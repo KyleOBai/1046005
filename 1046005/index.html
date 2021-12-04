@@ -25,8 +25,12 @@
 	<center>
 		<img src="media/brand.jpeg" width="15%" height="15%">
 		<form class="Search">
-			<input id="searchbar" type="text" size="50px" name="srch" placeholder="Search">
-			<button type="submit"><i><img src="gui/search.png" width="16px" height="16px"></i></button>
+			<input id="searchbar" list="suggestions" type="text" size="50px" name="srch" placeholder="Search">
+      <datalist id="suggestions">
+        <option value="Terraria">
+        <option value="Undertale">
+      </datalist>
+			<button id="srchkey" onclick="alert()"><i><img src="gui/search.png" width="16px" height="16px"></i></button>
 		</form>
 	</center>
 	<br>
@@ -59,7 +63,7 @@
 		<div class="footer-content" align="center">
 			<br>
 			<a href="subdirectories/about.html">About</a>
-			<a href="#About">Contacts</a>
+			<a href="subdirectories/contacts.html">Contacts</a>
 			<br>
 		</div>
 		<div class="footer-bottom">
