@@ -6,27 +6,6 @@
 		<title>SignUp</title>
 		<link rel="shortcut icon" href="../media/logo.ico">
 		<link rel="stylesheet" type="text/css" href="../css/midnightcss.css">
-    <script>
-      //Login and Signup script
-      var user = document.GetElementId("username");//global username variable
-      var pwd = document.GetElementId("pass");//global username variable
-      const main_data= ['Kyle', 1234];
-      document.getElementById("snup").onclick = function() {signup()};
-
-      function signup(){
-        main_data.pop[1][2]
-        main_data.push(user, pwd);
-        alert.main_data;
-      }
-
-      function login(){
-        if(document.GetElementId("username") == main_data[1]){
-          if(document.GetElementId("pass") == main_data[2]){
-
-          }
-        }
-      }
-    </script>
 	</head>
 	<body>
 		<div id="top">
@@ -34,7 +13,7 @@
 			<div class="navbar">
 				<a href="../index.html">Home</a>
 				<a href="../reviews.html">Reviews</a>
-				<a href="#News">News</a>
+				<a href="../news.html">News</a>
 			</div>
 		</div>
 		<br>
@@ -60,7 +39,7 @@
 				<input type="checkbox" name="rmber">
 				<label style="color: white;">Keep me signed in</label>
 				<br>
-				<input type="submit" value="Create account" id="snup" class="interactbutton" onclick="signup();">
+				<input type="submit" value="Create account" class="interactbutton" onclick="signup();">
 				<br>
 				<a href="signin.html">Already have an account?...Login</a>			
 				<br>
