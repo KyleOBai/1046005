@@ -120,11 +120,25 @@ form.search >button{
 
 .accessform{
 	background-color:  #20252b;
+  color: black;
 	border-radius: 6px;
 	float: center;
 	box-shadow: 0px 5px 10px black;
 	width: 400px;
 	height: 400px;
+}
+
+input{
+  color: black;
+}
+
+::placeholder { 
+  color: red;
+  opacity: .3; 
+}
+
+:-ms-input-placeholder { 
+  color: red;
 }
 
 #searchbar{
