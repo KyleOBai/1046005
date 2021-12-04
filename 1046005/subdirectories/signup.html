@@ -6,6 +6,27 @@
 		<title>SignUp</title>
 		<link rel="shortcut icon" href="../media/logo.ico">
 		<link rel="stylesheet" type="text/css" href="../css/midnightcss.css">
+    <script>
+      //Login and Signup script
+      var user = document.GetElementId("username");//global username variable
+      var pwd = document.GetElementId("pass");//global username variable
+      const main_data= ['Kyle', 1234];
+      document.getElementById("snup").onclick = function() {signup()};
+
+      function signup(){
+        main_data.pop[1][2]
+        main_data.push(user, pwd);
+        alert.main_data;
+      }
+
+      function login(){
+        if(document.GetElementId("username") == main_data[1]){
+          if(document.GetElementId("pass") == main_data[2]){
+
+          }
+        }
+      }
+    </script>
 	</head>
 	<body>
 		<div id="top">
@@ -28,34 +49,34 @@
 				<input type="text" name="name" placeholder="Second Name" required="">
 				<br>
 				<br>
-				<input type="text" name="username" placeholder="username" required="">
+				<input type="text" name="username" id="username" placeholder="username" required="">
 				<br>
 				<br>
 				<input type="email" name="email" placeholder="email" required="">
 				<br>
 				<br>
-				<input type="password" name="passwd" placeholder="password" required="">
+				<input type="password" name="passwd" id="pass" placeholder="password" required="">
 				<br>
 				<input type="checkbox" name="rmber">
 				<label style="color: white;">Keep me signed in</label>
 				<br>
-				<input type="submit" value="Create account" class="interactbutton">
+				<input type="submit" value="Create account" id="snup" class="interactbutton" onclick="signup();">
 				<br>
 				<a href="signin.html">Already have an account?...Login</a>			
 				<br>
 			</form>
 		</center>
 		<br>
-		<div class="footer">
-			<div class="footer-content">
-				<div class="footer-section about"></div>
-				<div class="footer-section links"></div>
-				<div class="footer-section socials">
-				</div>
-			</div>
-			<div class="footer-bottom">
-				&copy; steelballrun.io | Made By Kyle Okwach
-			</div>
-		</div>
+    <div class="footer">
+      <div class="footer-content" align="center">
+        <br>
+        <a href="about.html">About</a>
+        <a href="contacts.html">Contacts</a>
+        <br>
+      </div>
+      <div class="footer-bottom">
+        &copy; LvlXtreme | Made By Kyle Okwach
+      </div>
+    </div>
 	</body>
 </html>

@@ -6,6 +6,7 @@
 		<title>SignIn</title>
 		<link rel="shortcut icon" href="../media/logo.ico">
 		<link rel="stylesheet" type="text/css" href="../css/midnightcss.css">
+    <script type="text/javascript" src="userinfo.js"></script>
 	</head>
 	<body>
 		<div id="top">
@@ -22,10 +23,10 @@
 		<center>
 			<form class="accessform">
 				<h2>Signin to your account</h2>
-				<input type="text" name="username" placeholder="username or email" required="">
+				<input type="text" name="username" id="username" placeholder="username or email" required="">
 				<br>
 				<br>
-				<input type="password" name="passwd" placeholder="password" required="">
+				<input type="password" name="passwd" id="pass" placeholder="password" required="">
 				<br>
 				<input type="checkbox" name="rmber">
 				<label style="color: white;">Keep me signed in</label>
@@ -36,15 +37,16 @@
 			</form>
 		</center>
 		<br>
-		<div class="footer">
-			<div class="footer-content">
-				<div class="footer-section about"></div>
-				<div class="footer-section links"></div>
-				<div class="footer-section socials"></div>
-			</div>
-			<div class="footer-bottom">
-				&copy; steelballrun.io | Made By Kyle Okwach
-			</div>
-		</div>
+    <div class="footer">
+      <div class="footer-content" align="center">
+        <br>
+        <a href="about.html">About</a>
+        <a href="contacts.html">Contacts</a>
+        <br>
+      </div>
+      <div class="footer-bottom">
+        &copy; LvlXtreme | Made By Kyle Okwach
+      </div>
+    </div>
 	</body>
 </html>
